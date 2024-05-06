@@ -5,7 +5,7 @@ int main(void)
 	int num1;
 	char c;
 	
-	printf("***********************************************************\n");
+	printf("***********************************************************\n");  //設計一個個人頁面 
 	printf("***********************************************************\n");
 	printf("*                                                         *\n");
 	printf("*                    E1B39   郭明翰                       *\n");
@@ -47,34 +47,30 @@ int main(void)
 	printf("|-----------------------------------------------------------|\n");
 	printf("\n-----------------------------------------------------------\n");
 
-	
+	system("pause");
+	system("cls");                      //清除畫面 
+	char ch,num2;
 	printf("請輸入一個字元");
-	fflush(stdin);
-    scanf("%c",&c);
-    if(c>='A'&&c<='Z')
+    scanf("%c",&ch);
+    if(ch=='A'||ch=='a');
 	{
-		printf("*        ");
-		printf("**       ");
-		printf("* *      ");
-		printf("*  *     ");
-		printf("*   *    ");
-		printf("******   ");
-		printf("******   ");
+		system("cls");                  //清除畫面 
+		printf("輸入a~n的字元");
+		scanf("%c",&num2); 
+		for()
 	}
-    else if(c>='C'&&c<='z')
+    else if(c=='B'&&c=='b')
 	{
-		printf("c");
-		printf("bc");
-		printf("abc");
+		printf("乘法表");
+		printf("輸入1~9的整數");
+		scanf("%d") 
 	}
-    else if(c>=48&&c<=57)
+    else if(c=='C'&&c=='c')
 	{
-		printf("Digit");
+		printf("Continue?(yes/no)");
+		scanf()
 	}
-    else
-	{
-	printf("E1B39 郭明翰");
-	}	 
+    
 		
 	return 0;
  } 
