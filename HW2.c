@@ -59,6 +59,7 @@ int main(void)
 		printf("*  *     ");
 		printf("*   *    ");
 		printf("******   ");
+		printf("******   ");
 	}
     else if(c>='C'&&c<='z')
 	{
