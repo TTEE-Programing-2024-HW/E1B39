@@ -57,9 +57,9 @@ int main(void)
 		system("cls");                  //清除畫面 
 		printf("輸入a~n的字元");
 		scanf("%c",&num2); 
-		for()
+		
 	}
-    else if(c=='B'&&c=='b')
+    else if(c=='B'||c=='b')
 	{
 		printf("乘法表");
 		printf("輸入1~9的整數");
@@ -68,10 +68,10 @@ int main(void)
     else if(c=='C'&&c=='c')
 	{
 		printf("Continue?(yes/no)");
-		scanf()
+		scanf("")
 	}
     
 		
 	return 0;
  } 
- 
+ //心得:我覺得經過這次的作業讓我充分了解到我對於程式還是沒有很熟悉,不過在研究完講義後有寫出一點電作業要求的內容,雖然不多但是我還是會嘗試努力搞懂設些程式 
