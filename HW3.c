@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main(void)
 {
-	int num1;
+	int num1,a=3;
 	char c;
 	
 	printf("***********************************************************\n");
@@ -11,30 +11,37 @@ int main(void)
 	printf("*                    E1B39   郭明翰                       *\n");
 	printf("*                                                         *\n");
 	printf("*                                                         *\n");
-	printf("*                                                       *\n");
-	printf("*                                                   *\n");
-	printf("*                                                   *\n");
-	printf("*                       *** **                            *\n");
-	printf("*                          *                              *\n");
-	printf("*                          *                              *\n");
-	printf("*                          *                              *\n");
-	printf("*                          *                              *\n");
-	printf("*                        *   *                            *\n");
-	printf("*                       *     *                           *\n");
-	printf("*                       *     *                           *\n");
-	printf("*                     ***     ***                         *\n");
+	printf("*                                                         *\n");
+	printf("*  *******     *******    *     *                         *\n");
+	printf("*     *           *       *     *                         *\n");
+	printf("*     *           *       *     *                         *\n");
+	printf("*     *           *         ***                           *\n");
+	printf("*                                         **              *\n");
+	printf("*                                         * *             *\n");
+	printf("*                                         *   ****        *\n");
+	printf("*                                         *   ****        *\n");
+	printf("*                                         *   ****        *\n");
+	printf("*                      一定要大拇指的啦   ********        *\n");
 	printf("***********************************************************\n");
 	printf("***********************************************************\n");
 	system("pause");
 	system("CLS");
 
-	printf("請輸入密碼:");
-	scanf("%d",&num1);
-	if(num1==2024)
+	
+	do{
+		printf("請輸入密碼:");
+		scanf("%d",&num1);
+		if(num1==2024)
 	{
 		printf("\nWelcome");
+		break;
 	} 
 	else
 	{
 		printf("Error!\a");
-		return 0;
+		a--;
+    }
+	}while(a!=0);
+	
+    		return 0;
+}	 
