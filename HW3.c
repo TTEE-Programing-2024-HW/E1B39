@@ -38,7 +38,7 @@ int main(void)
 	} 
 	else
 	{
-		printf("Error!\a");
+		printf("Error!\a\n");
 		a--;
     }
 	}while(a!=0);
