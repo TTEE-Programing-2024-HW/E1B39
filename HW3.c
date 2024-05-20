@@ -45,3 +45,49 @@ int main(void)
 	
     		return 0;
 }	 
+    printf("\n-----------------[Booking  System]-----------------------\n");
+	printf("|       'a' :  Available seats                            |\n");
+	printf("|---------------------------------------------------------|\n");
+	printf("|       'b' :  Arrange for you                            |\n");
+	printf("|---------------------------------------------------------|\n");
+	printf("|       'c' :  Choose by yourself                         |\n");
+	printf("|---------------------------------------------------------|\n");
+	printf("|       'd' :  Exit                                       |\n");
+	printf("-----------------------------------------------------------\n"); 
+
+    char choice;
+    printf("請輸入選項:a");
+    scanf("%d",&choice);
+    getchar();
+    switch (choice){
+    	case 'a':
+    	
+    	
+    	
+    	break;
+    	case'b':
+    	
+    	
+    	
+    	
+    	case'c':
+    	
+    	
+    	
+    	
+    	case'd':
+    	printf("continue?(yes/no)");
+			
+    		
+    		
+    		
+	}
+
+
+
+
+
+
+
+
+
