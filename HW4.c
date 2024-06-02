@@ -105,12 +105,53 @@ char choice;
 			printf("請輸入英文成績:");
 			scanf("%d",&students[studentcount].english);
 			
+			if(students[studentcount].math<0||students[studentcount].math||students[studentcount].physics<0||students[studentcount].physics||students[studentcount].english<0||students[studentcount].english);
+			{
+				printf("請重新輸入:\n");
+				i--;
+				return;
+			}
+			student[studentcount].avg=(student[studentcount].math +students[studentcount].physics +student[studentcount].english)/3.0;
+			studentcount++;
+		}
+	}	
+		
+		
+		
+		{
+			int i,
+			printf("學生成績:\n");
+			printf("姓名  學號  數學  物理  英文  平均  \n");
+			for(i=0;i<studentcount;i++)
+			{
+				printf("%s  %d  %d  %d  %d  %f  \n",students[i].name,students[i].id,students[i].math,students[i].physics,students[i].english,students[i].avg);
+				printf("\n");
+			}
+			printf("按下任意按鍵返回主選單\n");
+			getchar();
+		}
+		
+		
+		{
+			
+			int f=0,i;
+			char searchname[50];
+			printf("請輸入要搜群的學生姓名:\n");
+			scanf("%s",searchname);
+			
+			for(i=0;i<studentcount;i++)
+			{
+				if(strcmp(students[i].name,searchname)==0)
+				{
+					printf("姓名  學號  數學  物理  英文  平均  \n");
+					printf("%s  %d  %d  %d  %d  %f  \n",students[i].name,students[i].id,students[i].math,students[i].physics,students[i].english,students[i].avg);
+			    	printf("\n");
+			    	f=1;
+			    	break;
+				}
+			}
 			
 		}
-		}	
-		
-		
-		
 		
 		
 		
